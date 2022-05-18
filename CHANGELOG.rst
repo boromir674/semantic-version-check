@@ -2,6 +2,23 @@
 Changelog
 =========
 
+1.0.0 (2022-05-18)
+==================
+
+This is first fully featured and stable version of the `semantic_version_check` Python Package.
+
+It features the `check-semantic-version` cli, suitable for quick invocation through a console or running on a CI service.
+It also features the installable `semantic_version_check` python module (aka package or library)
+that provides the `check` as python code.
+
+Changes
+^^^^^^^
+
+feature
+"""""""
+- check a string's to verify if it matches the Semantic Version format
+
+
 0.0.1 (2022-05-18)
 ==================
 
