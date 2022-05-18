@@ -69,7 +69,7 @@ Open a console and run:
   
 .. code-block:: shell
 
-  semantic-version-check 1.0.0
+  semantic-version-check 1.0.1
   echo $?
   echo "Exit code is 0 meaning operation succeeded"
 
@@ -134,11 +134,11 @@ License
 
 .. Code Coverage
 
-.. |coverage| image:: https://img.shields.io/codecov/c/github/boromir674/cookiecutter-python-package/master?logo=codecov
+.. |coverage| image:: https://img.shields.io/codecov/c/github/boromir674/semantic-version-check/master?logo=codecov
     :alt: Codecov
-    :target: https://app.codecov.io/gh/boromir674/cookiecutter-python-package
+    :target: https://app.codecov.io/gh/boromir674/semantic-version-check
 
-..PyPI
+.. PyPI
 
 .. |release_version| image:: https://img.shields.io/pypi/v/semantic_version_check
     :alt: Production Version
@@ -154,9 +154,9 @@ License
 
 .. Github Releases & Tags
 
-.. |commits_since_specific_tag_on_master| image:: https://img.shields.io/github/commits-since/boromir674/semantic-version-check/v1.0.0/master?color=blue&logo=github
+.. |commits_since_specific_tag_on_master| image:: https://img.shields.io/github/commits-since/boromir674/semantic-version-check/v1.0.1/master?color=blue&logo=github
     :alt: GitHub commits since tagged version (branch)
-    :target: https://github.com/boromir674/semantic-version-check/compare/v1.0.0..master
+    :target: https://github.com/boromir674/semantic-version-check/compare/v1.0.1..master
 
 .. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/boromir674/semantic-version-check/latest?color=blue&logo=semver&sort=semver
     :alt: GitHub commits since latest release (by SemVer)
@@ -174,7 +174,7 @@ License
 .. Better Code Hub
 .. Software Design Patterns
 
-.. |better_code_hub| image:: https://bettercodehub.com/edge/badge/boromir674/cookiecutter-python-package?branch=master
+.. |better_code_hub| image:: https://bettercodehub.com/edge/badge/boromir674/semantic-version-check?branch=master
     :alt: Better Code Hub
     :target: https://bettercodehub.com/
 
@@ -182,10 +182,10 @@ License
 .. Code Climate CI
 .. Code maintainability & Technical Debt
 
-.. |maintainability| image:: https://img.shields.io/codeclimate/maintainability/boromir674/biskotaki
+.. |maintainability| image:: https://img.shields.io/codeclimate/maintainability/boromir674/semantic-version-check
     :alt: Code Climate Maintainability
-    :target: https://codeclimate.com/github/boromir674/cookiecutter-python-package/maintainability
+    :target: https://codeclimate.com/github/boromir674/semantic-version-check/maintainability
 
-.. |tech-debt| image:: https://img.shields.io/codeclimate/tech-debt/boromir674/cookiecutter-python-package
+.. |tech-debt| image:: https://img.shields.io/codeclimate/tech-debt/boromir674/semantic-version-check
     :alt: Technical Debt
-    :target: https://codeclimate.com/github/boromir674/cookiecutter-python-package/maintainability
+    :target: https://codeclimate.com/github/boromir674/semantic-version-check/maintainability
