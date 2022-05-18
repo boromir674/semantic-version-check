@@ -1,7 +1,8 @@
 import sys
+
 import click
 
-from semantic_version_check.main import version_check, SemanticVersionFormatError
+from semantic_version_check.main import SemanticVersionFormatError, version_check
 
 
 @click.command()

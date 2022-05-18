@@ -8,6 +8,5 @@ from __future__ import absolute_import
 
 from semantic_version_check.cli import main
 
-
 if __name__ == "__main__":  # pragma: no cover
     main(prog_name='semantic-version-check')

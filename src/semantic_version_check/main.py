@@ -1,6 +1,5 @@
 import re
-from typing import Pattern, Callable, Match
-
+from typing import Callable, Match, Pattern
 
 regex = re.compile(
     r'^(?P<major>0|[1-9]\d*)'
@@ -15,12 +14,17 @@ regex = re.compile(
     r'(?P<buildmetadata>[0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$'
 )
 
+
 class RegExMatcher:
     @staticmethod
     def match(regex: Pattern, string: str) -> Match:
         match_result = regex.match(string)
         if not match_result:
-            raise SemanticVersionFormatError("Regex '{regex}' did not match string '{string}'".format(regex=regex.pattern, string=string))
+            raise SemanticVersionFormatError(
+                "Regex '{regex}' did not match string '{string}'".format(
+                    regex=regex.pattern, string=string
+                )
+            )
         return match_result
 
 
