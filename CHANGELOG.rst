@@ -1,8 +1,9 @@
+=========
 Changelog
 =========
 
 0.0.1 (2022-05-18)
----------------------------------------
+==================
 
 | This is the first ever release of the **semantic_version_check** Python Package.
 | The package is open source and is part of the **semantic-version-checker** Project.
