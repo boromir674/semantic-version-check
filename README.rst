@@ -69,11 +69,11 @@ Open a console and run:
   
 .. code-block:: shell
 
-  semantic-version-check 1.0.1
+  check-semantic-version 1.0.0
   echo $?
   echo "Exit code is 0 meaning operation succeeded"
 
-  semantic-version-check 1.3
+  check-semantic-version 1.3
   echo $?
   echo "Exit code is 1, meaning operation failed"
 
