@@ -22,6 +22,19 @@ Assuming you have 'activated' a `python virtual environment`:
 Simple Use Case
 ---------------
 
-| Common Use Case for the semantic_version_check is to TODO Document
+| One Use Case for the semantic_version_check is to invoke its cli, through a console
+| and do SemVer check on a single input string.
 
-TODO Document
+Open a console and run:
+  
+.. code-block:: shell
+
+  semantic-version-check 1.0.0
+  echo $?
+  echo "Exit code is 0 meaning operation succeeded"
+
+  semantic-version-check 1.3
+  echo $?
+  echo "Exit code is 1, meaning operation failed"
+
+Note: this use case may be useful for a CI pipeline.

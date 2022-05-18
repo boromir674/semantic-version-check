@@ -2,11 +2,9 @@
 Introduction
 ============
 
-| This is **semantic-version-checker**, a *Python Package* desinged to ...
+| This is **semantic-version-check**, a *Python Package* desinged to check whether
+| a given string is formatted according to Semantic Version.
 
-| Goal of this project is to TODO Document
-| Additionally, TODO Document
 
 | This documentation aims to help people understand what are the package's features and to demonstrate
 | how to leverage them for their use cases.
-| It also presents the overall package design.

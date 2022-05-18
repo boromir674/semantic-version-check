@@ -19,8 +19,8 @@ Features
 
 1. **semantic_version_check** `python package`
 
-   a. TODO Document a **Great Feature**
-   b. TODO Document another **Nice Feature**
+   a. CLI that can be usefull for quick checks, a script or in a CI pipeline
+   b. Semantic Version format check, using Regular Expressions
 2. Tested against multiple `platforms` and `python` versions
 
 
@@ -62,7 +62,20 @@ Using `pip` is the approved way for installing `semantic_version_check`.
     python3 -m pip install semantic_version_check
 
 
-TODO Document a use case
+| One Use Case for the semantic_version_check is to invoke its cli, through a console
+| and do SemVer check on a single input string.
+
+Open a console and run:
+  
+.. code-block:: shell
+
+  semantic-version-check 1.0.0
+  echo $?
+  echo "Exit code is 0 meaning operation succeeded"
+
+  semantic-version-check 1.3
+  echo $?
+  echo "Exit code is 1, meaning operation failed"
 
 
 License
